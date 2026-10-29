@@ -72,15 +72,71 @@ Dwellsy is a company surfaced via the API Evangelist harvest backlog (source: ne
 
 Everything profiled for Dwellsy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dwellsy/](https://apis.io/providers/dwellsy/)** — or go straight to one of the APIs or properties below.
 
+### APIs (3)
+
+- [Dwellsy Address API](https://apis.io/apis/dwellsy/dwellsy-address-api/) — The Address API from Dwellsy — 1 operation(s) for address.
+- [Dwellsy History API](https://apis.io/apis/dwellsy/dwellsy-history-api/) — The History API from Dwellsy — 1 operation(s) for history.
+- [Dwellsy Pricing API](https://apis.io/apis/dwellsy/dwellsy-pricing-api/) — The Pricing API from Dwellsy — 2 operation(s) for pricing.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dwellsy Agentic Access](https://apis.io/agentic-access/dwellsy/dwellsy-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [BalanceEntry](https://apis.io/schemas/dwellsy/dwellsy-balance-entry/)
+- [CompsPackage](https://apis.io/schemas/dwellsy/dwellsy-comps-package/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dwellsy Context](https://apis.io/jsonld/dwellsy/dwellsy-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Dwellsy Dashboard Api Overlay](https://apis.io/overlays/dwellsy/dwellsy-dashboard-api-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Dwellsy API Rules](https://apis.io/rules/dwellsy/dwellsy-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Dwellsy Authentication](https://apis.io/security/dwellsy/dwellsy-authentication/)
 - [Dwellsy Domain Security](https://apis.io/security/dwellsy/dwellsy-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Dwellsy Scopes](https://apis.io/scopes/dwellsy/dwellsy-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dwellsy Plans Pricing](https://apis.io/plans/dwellsy/dwellsy-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dwellsy Rate Limits](https://apis.io/rate-limits/dwellsy/dwellsy-rate-limits/)
 
 ## Where to find this API
 
@@ -94,32 +150,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 8.7** — minimal · rubric 0.25.0 · scored 2026-10-28
+**Kin Score 42.8** — developing · rubric 0.25.0 · scored 2026-10-28
 
 | Facet | Score |
 |---|---|
-| Discoverability | 26.8 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 5.3 |
-| Developer ergonomics | 2.4 |
-| Access clarity | 21.1 |
+| Discoverability | 44.6 |
+| Contract quality | 44.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 24.2 |
+| Developer ergonomics | 8.8 |
+| Access clarity | 49.5 |
 
-**Agent readiness 24.7** — agent-aware
+**Agent readiness 51.6** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
+| Error Semantics | documented (partial credit) |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -128,10 +184,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | — |
 
-**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dwellsy/](https://apis.io/providers/dwellsy/).
 
